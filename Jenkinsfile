@@ -26,13 +26,4 @@ pipeline {
                 }
             }
         }
-
-    post {
-        success {
-            echo 'Docker image build succeeded!'
-        }
-
-        failure {
-            echo 'Docker image build failed!'
-        }
-    }
+    }        
