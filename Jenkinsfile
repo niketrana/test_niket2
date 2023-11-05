@@ -43,4 +43,3 @@ pipeline {
             echo 'Docker image build failed!'
         }
     }
-}
